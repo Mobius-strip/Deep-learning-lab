@@ -1,0 +1,16 @@
+Question 1 [10 Marks]
+Implement a denoising autoencoder using X encoding and decoding layers on fashion MNIST
+dataset for image reconstruction. (You can add any type of noise. The weightage of noise
+addition should be 20%.)
+1. Use 1 FC layer with Y activation for 10 class classification [4 marks]
+2. Use 3 FC layer with Y activation for 10 class classification [4 marks]
+3. Compare the performance between 1FC and 3FC layer results and report the accuracy
+on test set and plot loss curves on training and test dataset. Display the first 10 images
+of the test set and their reconstruction using the 1FC and 3FC layer models. [6 marks]
+4. Plot t-sne for both the models i.e. with 1FC layer and 3FC layers. Use the first 1000
+images from the test dataset for this visualization. Contrast the performance. [6 marks]
+X = 4, if last digit of your roll no. is odd
+X = 5, if last digit of your roll no. is even
+Y = sigmoid, if last digit of your roll no. is odd
+Y = relu, if last digit of your roll no. is even
+Note - Use of TensorFlow is not permitted, and marks shall not be given for the same.
