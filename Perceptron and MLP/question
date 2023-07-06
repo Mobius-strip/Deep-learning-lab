@@ -1,0 +1,11 @@
+Question 1 [4 Marks]
+Implement a perceptron using the IRIS dataset. Perform backpropagation for two iterations.
+Question 2 [6 Marks]
+Implement an MLP using the IRIS dataset. Perform backpropagation for 15 iterations. The initial
+weights of the MLP should be randomly initialized. You can choose the activation function and
+loss function at your convenience, which gives the best performance.
+The MLP should have 2 hidden layers, one with 4 neurons and one with 5 neurons. The input
+layer should have 4 neurons and the output layer should have 3 neurons.
+Note - The backpropagation should be implemented from scratch using NumPy, and the
+use of inbuilt functions in PyTorch is not allowed for the same. Use of TensorFlow is not
+permitted, and marks shall not be given for the same.
