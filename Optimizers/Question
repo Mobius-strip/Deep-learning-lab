@@ -1,0 +1,16 @@
+Question 1 [30 Marks]
+Use ResNet18 pre-trained on ImageNet (Pre-trained models can be found online). Finetune the
+model on X dataset for classification task and plot curves for training loss and training accuracy.
+Report the final top-5 test accuracy. Perform the above task with any 3 optimizers from the
+following list.
+1. Adam
+2. Adagrad
+3. Adadelta
+4. RMSprop
+X = STL 10, if last digit of your roll no. is odd
+X = CIFAR100, if last digit of your roll no. is even
+In the report, analyze the results of each optimizer and mention the reason why one is better
+than the other, or why not. Further, for each optimizer, you need to vary the value of attributes
+and show its effect on the overall performance. Provide reasons for your observations in the
+report. (For ex - In Adam you can change the values of attributes like beta_1, beta_2, epsilon,
+momentum, weight_decay etc.)
